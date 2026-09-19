@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-assembly-runtime"
+version = "0.1.0"
+description = "Strict canonical agent documents with validation and inspectable file projections."
+requires-python = ">=3.11"
+license = {file = "LICENSE.md"}
+
+[tool.setuptools.packages.find]
+include = ["agent_assembly_runtime*"]

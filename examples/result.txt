@@ -1,0 +1,15 @@
+{
+  "name": "Review Bot",
+  "groups": [
+    "Outcasts",
+    "Research"
+  ],
+  "files": [
+    "Review_Bot/Outcasts.group.json",
+    "Review_Bot/Research.group.json",
+    "Review_Bot/Review_Bot.json",
+    "Review_Bot/Summarize.task.json"
+  ],
+  "rejected_typo": "task entry 1 contains unknown field(s): task_staus",
+  "embedded_source_executed": false
+}

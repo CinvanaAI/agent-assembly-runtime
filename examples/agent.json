@@ -1,0 +1,22 @@
+{
+  "name": "Review Bot",
+  "groups": [
+    {
+      "name": "Outcasts",
+      "tasks": []
+    },
+    {
+      "name": "Research",
+      "tasks": [
+        {
+          "name": "Summarize",
+          "task_status": "On Demand",
+          "workflow": {
+            "workflow_source": "def run_workflow(payload):\n    return payload"
+          },
+          "memory": []
+        }
+      ]
+    }
+  ]
+}
