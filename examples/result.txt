@@ -11,5 +11,11 @@
     "Review_Bot/Summarize.task.json"
   ],
   "rejected_typo": "task entry 1 contains unknown field(s): task_staus",
-  "embedded_source_executed": false
+  "embedded_source_executed": false,
+  "groups_after_edit_and_restart": [
+    "Outcasts",
+    "Review"
+  ],
+  "projected_task": "Summarize",
+  "stale_research_projection_removed": true
 }

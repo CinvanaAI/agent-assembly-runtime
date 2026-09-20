@@ -115,6 +115,9 @@ class AssemblyManager:
             fallback_name=clean_agent_name,
         )
 
+        # Validate the entire authored structure before memory creation/migration:
+        # a later projection-name error must not move a caller's existing file.
+        self.validator.validate_agent(normalized_agent)
         self.memory_file_manager.ensure_memory_files_for_agent(normalized_agent)
         self.validator.validate_agent(normalized_agent)
 
